@@ -2,7 +2,11 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
     <title>Melody Map — Kişiselleştirilmiş Müzik Keşfi</title>
 
@@ -11,13 +15,192 @@
         content="Melody Map, Apple Music ve Spotify üzerinden müzik zevkinize uygun şarkılar, sanatçılar ve çalma listeleri keşfetmenizi sağlar."
     >
 
+    <meta name="theme-color" content="#050507">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <header class="site-header">
+        <a class="brand" href="index.html">
+            <span class="brand-icon">♪</span>
+            <span>Melody Map</span>
+        </a>
+
+        <nav class="navigation">
+            <a href="#features">Özellikler</a>
+            <a href="privacy.html">Gizlilik</a>
+            <a href="support.html">Destek</a>
+        </nav>
+    </header>
+
     <main>
-        <h1>Melody Map</h1>
-        <p>Kişiselleştirilmiş müzik keşfi.</p>
+        <section class="hero">
+            <div class="hero-copy">
+                <span class="eyebrow">
+                    Apple Music ve Spotify ile müzik keşfi
+                </span>
+
+                <h1>
+                    Müzik zevkin,
+                    <span>senin haritan.</span>
+                </h1>
+
+                <p>
+                    Melody Map; sevdiğiniz sanatçıları, türleri ve
+                    dinleme tercihlerinizi kullanarak size özel
+                    şarkılar ve çalma listeleri keşfetmenizi sağlar.
+                </p>
+
+                <div class="hero-actions">
+                    <a class="primary-button" href="#features">
+                        Özellikleri Keşfet
+                    </a>
+
+                    <a class="secondary-button" href="support.html">
+                        Destek Al
+                    </a>
+                </div>
+
+                <div class="platform-badges">
+                    <span>Apple Music</span>
+                    <span>Spotify</span>
+                    <span>iPhone için geliştirildi</span>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="phone-frame">
+                    <div class="phone-screen">
+                        <div class="phone-header">
+                            <small>Günaydın</small>
+                            <strong>Melody Map</strong>
+                            <span>Bugün senin için seçtik.</span>
+                        </div>
+
+                        <div class="music-card">
+                            <span class="card-label">Sana özel</span>
+
+                            <div class="music-art">
+                                ♪
+                            </div>
+
+                            <h2>Discovery Mix</h2>
+                            <p>
+                                Favori sanatçıların ve türlerin temel
+                                alınarak hazırlandı.
+                            </p>
+
+                            <button type="button">
+                                Yeni şarkı öner
+                            </button>
+                        </div>
+
+                        <div class="mini-card-row">
+                            <div class="mini-card">
+                                <span>Apple Music</span>
+                                <strong>Hazır Listeler</strong>
+                            </div>
+
+                            <div class="mini-card spotify-card">
+                                <span>Spotify</span>
+                                <strong>Yeni Keşifler</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="section">
+            <div class="section-heading">
+                <span class="eyebrow">Melody Map deneyimi</span>
+
+                <h2>
+                    Sevdiğiniz müzikten yeni keşiflere.
+                </h2>
+
+                <p>
+                    Tercihlerinize göre şekillenen, sade ve
+                    kişiselleştirilmiş bir müzik keşif deneyimi.
+                </p>
+            </div>
+
+            <div class="feature-grid">
+                <article class="feature-card">
+                    <span class="feature-icon">✦</span>
+                    <h3>Kişiselleştirilmiş Öneriler</h3>
+                    <p>
+                        Seçtiğiniz tür ve sanatçılara göre yeni
+                        şarkılar ve benzer sanatçılar keşfedin.
+                    </p>
+                </article>
+
+                <article class="feature-card">
+                    <span class="feature-icon">◉</span>
+                    <h3>Gerçek Çalma Listeleri</h3>
+                    <p>
+                        Apple Music ve Spotify üzerindeki listeleri
+                        tek ekrandan keşfedin.
+                    </p>
+                </article>
+
+                <article class="feature-card">
+                    <span class="feature-icon">♡</span>
+                    <h3>Favorilerinizi Koruyun</h3>
+                    <p>
+                        Beğendiğiniz şarkıları ve önerileri favori
+                        listenize ekleyin.
+                    </p>
+                </article>
+
+                <article class="feature-card">
+                    <span class="feature-icon">⌁</span>
+                    <h3>İki Platform, Tek Deneyim</h3>
+                    <p>
+                        Seçtiğiniz içeriği Apple Music veya Spotify
+                        üzerinden açın.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="privacy-banner">
+            <div>
+                <span class="eyebrow">Gizlilik önceliklidir</span>
+
+                <h2>
+                    Kontrol her zaman sizde.
+                </h2>
+
+                <p>
+                    Melody Map, müzik tercihlerinizi yalnızca
+                    kişiselleştirilmiş öneriler sunmak amacıyla
+                    kullanır.
+                </p>
+            </div>
+
+            <a class="secondary-button" href="privacy.html">
+                Gizlilik Politikasını İncele
+            </a>
+        </section>
     </main>
+
+    <footer class="site-footer">
+        <div>
+            <strong>Melody Map</strong>
+            <p>Aziz Ahmet Saybir tarafından geliştirilmiştir.</p>
+        </div>
+
+        <div class="footer-links">
+            <a href="privacy.html">Gizlilik</a>
+            <a href="support.html">Destek</a>
+            <a href="app-ads.txt">app-ads.txt</a>
+        </div>
+
+        <p class="copyright">
+            © 2026 Melody Map. Tüm hakları saklıdır.
+        </p>
+    </footer>
 </body>
 </html>
